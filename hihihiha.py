@@ -10,7 +10,7 @@ async def echo_handler(message):
     await message.answer(message.text)
 
 async def start_handler(message):
-    await message.answer('Привет, я люблю сосать..... чупачупс')
+    await message.answer('Привет')
 
 
 dp.register_message_handler(start_handler, commands=['start'])
